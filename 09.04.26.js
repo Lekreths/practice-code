@@ -77,6 +77,23 @@ alert(arr9.map(item => item.length));
 // From [A,B,C] to [4,4,5];
 
 
+let arr10 = [2, 1, 15];
+alert(arr10.sort());
+
+// Be careful: sort without other functions, can sort like stirng elements 
+// 2, 1, 15 -> 1, 15, 2 
+// You need create a funbction, where can be if/else for integer
+
+function Numbers(a, b) {
+  if (a > b) return 1;
+  if (a == b) return 0;
+  if (a < b) return -1;
+}
+
+alert(arr10.sort(Numbers));
+
+
+
 
 
 
