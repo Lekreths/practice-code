@@ -91,6 +91,22 @@ function Numbers(a, b) {
 }
 
 alert(arr10.sort(Numbers));
+// 2 - 1 - 15 -> 2 - 1 - 15
+
+let arr11 = ["Alfa", "Beta", "Gamma"];
+let example = arr11.split(', ');
+for (let name of arr11) {
+  alert(`Сообщение получат: ${name}.`)
+}
+
+// split like a cut, evry elemnt cut from array and print everytime 
+
+let arr12 = ["Alfa", "Beta", "Gamma"];
+let example = arr12.join(';);
+alert(example);
+// Alfa;Beta;Gamma
+
+// join: no commentary...
 
 
 
