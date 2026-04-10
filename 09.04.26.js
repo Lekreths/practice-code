@@ -41,7 +41,7 @@ let arr7 = [
   {id: 2, number: 2},
   {id: 3, number: 3},
   {id: 4, number: 1}
-;
+];
 
 // 1.1 find
 let result = arr7.find(item => item.id == 1);
@@ -58,6 +58,26 @@ alert(arr7.findIndex(number => arr7.name == 2)) // 1
 alert(arr7.findLastIndex(number => arr7.name == 1)) // 3
 
 // find - is a method, where from array with objects find corrctly massive
+
+let arr8 = [
+  {id: 1, number: 1},
+  {id: 2, number: 2},
+  {id: 3, number: 3},
+  {id: 4, number: 1}
+];
+
+let result = arr8.filter(item => item.id < 3);
+alert(result.length);
+
+// filter - like mthod find, but be able to find many same elements: 4 or more
+
+let arr9 = ["Alfa", "Beta", "Gamma"];
+alert(arr9.map(item => item.length));
+
+// From [A,B,C] to [4,4,5];
+
+
+
 
 
 
