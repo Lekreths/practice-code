@@ -7,6 +7,7 @@ arr2.splice(0,1)
 alert(arr2); //2,3,4
 
 let arr3 = [1,2,3,4]
+
 arr3.slice(1,3)
 alert(arr3) //2,3
 
