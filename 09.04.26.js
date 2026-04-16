@@ -56,7 +56,7 @@ alert(result)
 // 2.1 findIndex
 alert(arr7.findIndex(number => arr7.name == 2)) // 1
 // 2.2 findLastIndex
-alert(arr7.findLastIndex(number => arr7.name == 1)) // 3
+alert(arr7.findLastIndex(number => arr7.name == 1))  // 3
 
 // find - is a method, where from array with objects find corrctly massive
 
