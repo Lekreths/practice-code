@@ -2,6 +2,7 @@ let arr = [1,"Hello",3];
 arr.delete("Hello")
 alert( arr.length ); //3
 
+
 let arr2 = [1,2,3,4]
 arr2.splice(0,1)
 alert(arr2); //2,3,4
