@@ -52,7 +52,7 @@ alert(result.number);
 let result = arr7.find(function(item) {
   return item.id == 1;
 })
-alert(result)
+alert(result) 
 
 // 2.1 findIndex
 alert(arr7.findIndex(number => arr7.name == 2)) // 1
