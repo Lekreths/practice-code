@@ -4,7 +4,7 @@
 let x = 2;
 let n = 3;
 
-function pow(x,n) {
+function pow(x,n)  {
   let result = 1;
 
   for (let i = 0; i < n; i++) {
